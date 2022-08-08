@@ -8,3 +8,7 @@ ubuntu
 
 [teste]
 ansible99
+
+[mine]
+node1
+node2
