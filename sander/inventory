@@ -5,3 +5,6 @@ ansible3
 
 [ubuntu]
 ubuntu
+
+[teste]
+ansible99
