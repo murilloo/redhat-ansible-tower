@@ -3,7 +3,7 @@ ansible1
 ansible2
 ansible3
 
-[ubuntu]
+[kubuntu]
 ubuntu
 
 [teste]
