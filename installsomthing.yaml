@@ -1,6 +1,6 @@
 ---
 - name: install run and enable {{ something }}
-  hosts: nodes
+  hosts: all
   tasks:
   - name: install {{ something }}
     package:
