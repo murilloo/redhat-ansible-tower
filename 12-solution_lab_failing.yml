@@ -1,0 +1,7 @@
+---
+- name: failure
+  hosts: localhost
+  tasks:
+    - name: debug
+      debug:
+        msg: "Playbook fail"

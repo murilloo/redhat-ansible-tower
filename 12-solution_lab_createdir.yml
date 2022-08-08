@@ -1,0 +1,9 @@
+---
+- name: create directory
+  hosts: node1.example.com
+  tasks:
+    - name: create dir
+      file:
+        path: "{{ username }}dir"
+        owner: "{{ username }}"
+        state: directory

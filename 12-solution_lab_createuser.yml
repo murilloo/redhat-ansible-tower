@@ -1,0 +1,8 @@
+---
+- name: create a user
+  hosts: node1.example.com
+  tasks:
+    - name: create user
+      user:
+        name: "{{ username }}"
+        password: "{{ password }}"
